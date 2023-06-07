@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Bold'), local('Poppins-Bold'),
+        url('../fonts/Poppins-Bold.woff2') format('woff2'),
+        url('../fonts/Poppins-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins Medium'), local('Poppins-Medium'),
+        url('../fonts/Poppins-Medium.woff2') format('woff2'),
+        url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?o2as2');
+    src:  url('../fonts/icomoon.eot?o2as2#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?o2as2') format('truetype'),
+      url('../fonts/icomoon.woff?o2as2') format('woff'),
+      url('../fonts/icomoon.svg?o2as2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-Courses-exp:before {
+    content: "\e900";
+  }
+  .icon-Design-about:before {
+    content: "\e901";
+  }
+  .icon-Designer-exp:before {
+    content: "\e902";
+  }
+  .icon-Developer-exp:before {
+    content: "\e903";
+  }
+  .icon-Facebook-footer:before {
+    content: "\e904";
+  }
+  .icon-Facebook-header:before {
+    content: "\e905";
+  }
+  .icon-Github-header:before {
+    content: "\e906";
+  }
+  .icon-Instagram-footer:before {
+    content: "\e907";
+  }
+  .icon-Instagram-header:before {
+    content: "\e908";
+  }
+  .icon-Mobile-dev-about:before {
+    content: "\e909";
+  }
+  .icon-Telegram-footer:before {
+    content: "\e90a";
+  }
+  .icon-University-exp:before {
+    content: "\e90b";
+  }
+  .icon-Web-development-about:before {
+    content: "\e90c";
+  }

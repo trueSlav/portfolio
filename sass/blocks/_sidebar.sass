@@ -1,0 +1,35 @@
+.sidebar
+    position: fixed
+    left: -150px
+    top: 330px
+    display: flex
+    align-items: center
+    transform: rotate(-90deg)
+    
+    &__links
+        order: 0
+        margin-right: 15px
+        transform: rotate(90deg)
+        a
+            color: #000
+            text-decoration: none
+            &:hover
+               text-decoration: underline
+            span
+                font-size: 18px
+
+    &__underline
+        order: -1
+        width: 70px
+        height: 2px
+        background-color: #000
+        margin-right: 15px
+        margin-top: 4px
+        
+    &__social
+        order: -2
+        margin-right: 15px
+        font-weight: 900
+        font-size: 16px
+        line-height: 24px
+        

@@ -1,0 +1,70 @@
+.about
+    padding-top: 120px
+    
+    &__wrapper
+        display: flex
+        justify-content: space-between
+
+    &__img
+        width: 400px
+        height: 600px
+        
+        img
+            width: 100%
+            height: 100%
+    &__main 
+        min-height: 600px
+        max-width: 620px
+
+    &__subtitle
+        position: relative
+        margin-top: 6px
+        padding-left: 12px
+        @include before_circle
+            
+    &__title
+        margin-top: 6px
+    
+    &__divider
+        @include divider
+        margin-top: 5px
+
+    &__text-block
+        max-width: 570px
+        margin-top: 25px
+
+        font-weight: 500
+        font-size: 14px
+        line-height: 21px
+
+        color: #000000
+    
+    &__cards
+        margin-top: 40px
+        display: flex
+        flex-wrap: wrap
+
+    &__item-card
+        position: relative
+        max-width: 260px
+        min-height: 116px
+        padding-left: 60px
+        margin-right: 50px
+        margin-bottom: 20px
+        @include before_circle_icon
+        
+
+    &__icon-card
+        position: absolute
+        top: 15px
+        left: 15px
+        
+        font-size: 25px
+    
+    &__text
+        margin-top: 6px
+        font-weight: 500
+        font-size: 12px
+        line-height: 18px
+
+        color: #000000

@@ -28,5 +28,20 @@
 	height: 3px
 	background-color: $mcolor
 
+@mixin subtitle-title()
+	&__subtitle
+		position: relative
+		text-align: center
+		@include before_circle
+		&::before
+			left: 50%
+			transform: translateX(-50%)
+			bottom: -20%
+	&__title
+		text-align: center
+		margin-top: 6px
+	
+	
+
 
 	

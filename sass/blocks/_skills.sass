@@ -1,0 +1,49 @@
+.skills
+	padding-top: 120px
+	@include subtitle-title
+	&__divider
+		@include divider
+		margin: 0 auto
+		margin-top: 25px
+
+	&__wrapper-card
+		margin-top: 60px
+
+		display: grid
+		grid-template: repeat(2, minmax(270px,1fr)) / repeat(4, minmax(270px,1fr))
+		gap: 13px
+		place-content: center center
+		
+
+	&__card
+		position: relative
+		padding: 0 30px 10px 30px
+		min-width: 270px
+		min-height: 270px
+		border: 1px solid #000000
+	
+		&-img
+			position: absolute
+			top: 30px
+			left: 30px
+
+		&-wrapper-text
+			margin-top: 115px
+			
+		&-title
+			font-weight: 900
+			font-size: 14px
+			line-height: 21px
+			color: #000000
+
+		&-text
+			margin-top: 15px
+			font-weight: 500
+			font-size: 12px
+			line-height: 18px
+			color: #000000
+
+			
+			
+
+		

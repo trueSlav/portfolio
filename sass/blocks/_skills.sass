@@ -1,6 +1,7 @@
 .skills
 	padding-top: 120px
 	@include subtitle-title
+
 	&__divider
 		@include divider
 		margin: 0 auto
@@ -43,7 +44,51 @@
 			line-height: 18px
 			color: #000000
 
-			
-			
+	&__wrapper-progress-bar
+		margin-top: 128px
+		min-height: 170px
 
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+		align-content: space-between
+
+	&__block-progress-bar
+		position: relative
+
+		width: 350px
+
+	&__progress-title
+		position: relative
+		@include before_circle
+		padding-left: 13px
+		font-size: 14px
+		font-weight: 900
+		color: #000
+	
+	&__percent
+		font-size: 14px
+		font-weight: 900
+		color: #000
+	
+	&__percent
+		position: absolute
+		top: 0
+		right: 0
+
+	&__scale
+		height: 14px
+		border-radius: 4px
+
+		&_gray
+			width: 100%
+			margin-top: 27px
+
+			background-color: #E8E4DE
+
+		&_yellow
+			background-color: #FFA501
+
+
+			
 		

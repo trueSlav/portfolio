@@ -36,6 +36,13 @@ document.addEventListener('DOMContentLoaded', (e) => {
         }
     });
 
-    
-    console.log('Hi');
+    //Percent-bar
+
+    const percent = document.querySelectorAll('.skills__percent'),
+          lineYellow = document.querySelectorAll('.skills__scale_yellow');
+
+    percent.forEach((item, i) => {
+        lineYellow[i].style.width = item.innerHTML;;
+    });
+
 });

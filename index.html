@@ -58,8 +58,8 @@
                     <li class="menu__item"><a href="#about">ПРО МЕНЯ</a></li>
                     <li class="menu__item"><a href="#experience">МОЙ ОПЫТ</a></li>
                     <li class="menu__item"><a href="#skills">МОИ НАВЫКИ</a></li>
-                    <li class="menu__item"><a href="#">МОИ РАБОТЫ</a></li>
-                    <li class="menu__item"><a href="#">ПРАЙС-ЛИСТ</a></li>
+                    <li class="menu__item"><a href="#portfolio">МОИ РАБОТЫ</a></li>
+                    <li class="menu__item"><a href="#price">ПРАЙС-ЛИСТ</a></li>
                     <li class="menu__item"><a href="#">КОНТАКТЫ</a></li>
                 </ul>
             </nav>
@@ -363,14 +363,13 @@
         </div>
     </section>
 
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="title portfolio__subtitle title_fz16">Портфолио</div>
             <div class="title portfolio__title title_fz36">Мои работы</div>
             <div class="portfolio__divider"></div>
 
             <div class="portfolio__wrapper">
-
                 <a href="https://trueslav.github.io/Uber/index.html" target="_blank" class="portfolio__item" id="item1">
                     <img src="img/portfolio/uber.jpg" alt="uber">
                 </a>
@@ -394,13 +393,103 @@
                 <a href="#" class="portfolio__item" target="_blank" id="item6">
                     <img src="img/portfolio/mac.jpg" alt="mac">
                 </a>
-                
-
             </div>
-            
-            
-           
+        </div>
+    </section>
 
+    <section id="price" class="price">
+        <div class="container">
+            <div class="title price__subtitle title_fz16">Прайс-лист</div>
+            <div class="price__divider"></div>
+
+            <div class="price__wrapper">
+                
+                <div class="price__product">
+                    <div class="price__name">Landing-page</div>
+                    <div class="price__product-price">от 8000 руб.</div>
+                    <div class="price__description">Одностраничный сайт для презентации услуг/товаров/...</div>
+                </div>
+                
+                <div class="price__product">
+                    <div class="price__name">Корпоративный сайт</div>
+                    <div class="price__product-price">от 20000 руб.</div>
+                    <div class="price__description">Сайт для вашего бизнеса или компании</div>
+                </div>
+
+                <div class="price__product">
+                    <div class="price__name">Интернет-магазин</div>
+                    <div class="price__product-price">от 30000 руб.</div>
+                    <div class="price__description">Инструмент для ваших продаж в сети</div>
+                </div>
+                
+                <div class="price__product">
+                    <div class="price__name">Web-приложение</div>
+                    <div class="price__product-price">от 28000 руб.</div>
+                    <div class="price__description">Приложение внутри браузера для лучшего комфорта</div>
+                </div>
+
+                <div class="price__product">
+                    <div class="price__name">Android/IOS Приложение</div>
+                    <div class="price__product-price">от 25000 руб.</div>
+                    <div class="price__description">Приложение для смартфона любой ОС</div>
+                </div>
+
+                <div class="price__product">
+                    <div class="price__name">Дизайн</div>
+                    <div class="price__product-price">Индивидуально</div>
+                    <div class="price__description">Создам дизайн для вашего сайта/приложения...</div>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="img/Photo-about--footer.jpg" alt="itsme">
+                </div>
+
+                <div class="contacts__content">
+                    <div class="title contacts__subtitle title_fz16">Контакты</div>
+                    <h2 class="title contacts__title title_fz36">Свяжитесь со мной</h2>
+                    <div class="contacts__divider"></div>
+                    <div class="title title_fz14 contacts__text">Любым удобным для вас способом:</div>
+
+                    <div class="contacts__social">
+                        <a href="#" class="contacts__link">
+                            <span class="icon-Facebook-footer"></span>
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <span class="icon-Instagram-footer"></span>
+                        </a>
+                        <a href="#" class="contacts__link">
+                            <span class="icon-Telegram-footer"></span>
+                        </a>
+                    </div>
+
+                    <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
+
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input name="name" id="name" type="text">
+                            <label for="name">Ваше имя</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input name="mail" id="mail" type="text">
+                            <label for="mail">Ваша почта</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            <label for="message">Ваше сообщение</label>
+                        </div>
+                        <button class="contacts__btn btn">Отправить сообщение</button>
+                    </form>
+
+                </div>
+            </div>
         </div>
     </section>
 

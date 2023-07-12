@@ -98,8 +98,8 @@
             <div class="title promo__subtitle title_fz16">Меня зовут Илья Деркач</div>
             <h1 class="title promo__title title_fz48">Я web-разработчик из города Краснодар</h1>
             <div class="promo__btns">
-                <a href="#" class="promo__link btn promo__link_mr44">Портфолио</a>
-                <a href="#" class="promo__link">Про меня</a>
+                <a href="#portfolio" class="promo__link btn promo__link_mr44">Портфолио</a>
+                <a href="#about" class="promo__link">Про меня</a>
             </div>
         </div>
 
@@ -474,18 +474,24 @@
 
                     <form action="#" class="contacts__form">
                         <div class="contacts__input">
-                            <input name="name" id="name" type="text">
+                            <input required name="name" id="name" type="text">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input name="mail" id="mail" type="text">
+                            <input required name="mail" id="mail" type="text">
                             <label for="mail">Ваша почта</label>
                         </div>
                         <div class="contacts__textarea">
                             <textarea name="message" id="message" cols="30" rows="10"></textarea>
                             <label for="message">Ваше сообщение</label>
                         </div>
-                        <button class="contacts__btn btn">Отправить сообщение</button>
+                        <div class="contacts__trigger">
+                            <button class="contacts__btn btn">Отправить сообщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox"> 
+                                <span>Я согласен(а) с <a href="/policy.html">политикой конфиденциальности</a></span>
+                            </div>
+                        </div>
                     </form>
 
                 </div>
